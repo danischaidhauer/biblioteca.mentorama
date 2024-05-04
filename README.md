@@ -17,6 +17,7 @@ Este projeto, tem como propósito a execução de testes automatizados no site d
 ## Testes Executados
 
 - Verificar a existência do logo da Livraria e se o mesmo está visível;
+- Pesquisar um livro e um autor na página;
 - Buscar um livro pelo nome do Livro e pelo nome do autor;
 - Verificar a existência de um livro na página principal da loja;
 - Adicionar um livro no carrinho, por meio do xpath;
