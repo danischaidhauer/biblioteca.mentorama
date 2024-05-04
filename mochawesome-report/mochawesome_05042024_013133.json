@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-05-04T00:31:27.819Z",
+    "end": "2024-05-04T00:31:33.078Z",
+    "duration": 5259,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "770ebb5a-14e8-4293-b60a-734426c20f3d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\biblioteca.cy.js",
+      "file": "cypress\\e2e\\biblioteca.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5fb07747-970f-41c3-bda3-4186f2cab79c",
+          "title": "Exemplo de teste Cypress",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Pesquisar um livro na página",
+              "fullTitle": "Exemplo de teste Cypress Pesquisar um livro na página",
+              "timedOut": null,
+              "duration": 5228,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.pesquisarLivro(Cypress.env('NomeLivro'));",
+              "err": {},
+              "uuid": "76f72259-429c-4214-ac5d-54f99be94dd6",
+              "parentUUID": "5fb07747-970f-41c3-bda3-4186f2cab79c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "76f72259-429c-4214-ac5d-54f99be94dd6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5228,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reporterDir": "cypress/reports/mochawesome-reporter",
+        "overwrite": true,
+        "html": true,
+        "video": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
